@@ -1,4 +1,5 @@
 // Primitive type -> String , Number, Boolean,undefined,null
+// Reference type -> Object , Array , Function
 
 let name = 'Mohan'; // String literal
 let age = 30; // Number literal
