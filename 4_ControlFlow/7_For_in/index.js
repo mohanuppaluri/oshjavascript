@@ -1,4 +1,4 @@
-// For...in loop
+// For...in loop Always use bracket notation only
 
 const person = {
   name: 'Mohan',
@@ -9,7 +9,7 @@ for(let key in person){
   console.log(key,person[key]);
 }
 
-const colors = ['red','green','blue'];
+const colors = ['red','green','blue'];  // Array
 
 for(let index in colors){
   console.log(index,colors[index]);
