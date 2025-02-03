@@ -12,9 +12,25 @@ const circle = {
   },
   isVisible: true,
   draw: function(){
-    console.log('draw');
+    console.log('Draw Circle');
   }
 };
 
+const square = {
+  perimeter: 2,
+
+  area:{
+    length:5,
+    breadth:5
+  },
+  isVisible: true,
+  draw: function(){
+    console.log('Draw Square');
+  }
+
+
+}
+
 circle.draw(); // Method
+square.draw();
 
