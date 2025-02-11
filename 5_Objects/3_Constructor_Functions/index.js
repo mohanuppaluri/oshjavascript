@@ -17,3 +17,20 @@ const circle = new Circle(1);
 console.log(circle);
 
 circle.draw();
+
+
+
+// Factory Function for reference
+
+function createCircle(radius){
+  return {
+    radius,
+
+    draw(){
+      console.log('draw');
+    }
+  };
+
+}
+
+const ccircle = createCircle(10);
