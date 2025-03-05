@@ -1,3 +1,5 @@
 {
-  "livePreview.defaultPreviewPath": "/5_Objects/6_Functions_are_Objects/index.html"
+  "livePreview.defaultPreviewPath": "/5_Objects/6_Functions_are_Objects/index.html",
+  "workbench.preferredLightColorTheme": "Visual Studio Dark",
+  "window.autoDetectColorScheme": true
 }
